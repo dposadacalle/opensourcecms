@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Dar de Alta un nuevo Post" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-11-25T04:51:07" hostname="DESKTOP-F39JFGB" time="0.048">
+  <properties/>
+  <testcase name="Post Creado Exitosamente" classname="Dar de Alta un nuevo Post" time="0.048">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[
+Feature: Dar de Alta un nuevo Post
+
+  Scenario: Post Creado Exitosamente              ?[90m# src/test/resources/features/post/post.feature:2?[0m
+23:51:07.769 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Post Creado Exitosamente(dar-de-alta-un-nuevo-post;post-creado-exitosamente)
+-------------------------------------------------------------------
+    ?[33mGiven ?[0m?[33mValidar campos requeridos?[0m               ?[90m# PostStepDefinitions.validar_campos_requeridos()?[0m
+      ?[33mcucumber.api.PendingException: TODO: implement me
+	at starter.stepdefinitions.PostStepDefinitions.validar_campos_requeridos(PostStepDefinitions.java:12)
+	at ?.Validar campos requeridos(file:src/test/resources/features/post/post.feature:3)
+?[0m
+    ?[36mWhen ?[0m?[36mValidar los Tipos de datos de los campos?[0m ?[90m# PostStepDefinitions.validar_los_Tipos_de_datos_de_los_campos()?[0m
+    ?[36mThen ?[0m?[36mValidar Longitud maxima de los campos?[0m    ?[90m# PostStepDefinitions.validar_Longitud_maxima_de_los_campos()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
