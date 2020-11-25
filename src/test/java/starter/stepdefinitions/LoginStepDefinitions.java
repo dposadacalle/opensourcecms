@@ -27,6 +27,7 @@ public class LoginStepDefinitions {
     @When("he sends their valid credentials")
     public void he_sends_their_valid_credentials() {
         theActorCalled(name).attemptsTo(
+                NavigateTo.theOpenSourceCmsHomePage(),
                 DoLogin.withCredentials("opensourcecms", "opensourcecms")
         );
     }

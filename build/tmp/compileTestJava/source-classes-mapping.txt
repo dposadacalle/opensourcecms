@@ -2,6 +2,10 @@ starter/stepdefinitions/PostStepDefinitions.java
  starter.stepdefinitions.PostStepDefinitions
 starter/search/SearchForm.java
  starter.search.SearchForm
+starter/navigation/OpenSourceCmsHomePage.java
+ starter.navigation.OpenSourceCmsHomePage
+starter/post/DoPost.java
+ starter.post.DoPost
 starter/search/SearchResultList.java
  starter.search.SearchResultList
 starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java
@@ -16,10 +20,10 @@ starter/CucumberTestSuite.java
  starter.CucumberTestSuite
 starter/login/DoLogin.java
  starter.login.DoLogin
-starter/navigation/DuckDuckGoHomePage.java
- starter.navigation.DuckDuckGoHomePage
 starter/search/SearchFor.java
  starter.search.SearchFor
+starter/post/PostOverview.java
+ starter.post.PostOverview
 starter/login/LoginForm.java
  starter.login.LoginForm
 starter/matchers/StringContainsIgnoringCase.java

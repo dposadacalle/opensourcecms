@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import starter.post.PostForm;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
@@ -31,7 +32,8 @@ public class DoLogin implements Task {
         actor.attemptsTo(
                 Enter.theValue(username).into(LoginForm.USERNAME_FIELD),
                 Enter.theValue(password).into(LoginForm.USER_PASSWORD),
-                Click.on(LoginForm.USER_BUTTON)
+                Click.on(PostForm.POST_PUBLISH)
         );
     }
+
 }
